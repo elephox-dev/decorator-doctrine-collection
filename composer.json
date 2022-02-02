@@ -1,0 +1,22 @@
+{
+    "name": "elephox/decorator-doctrine-collection",
+    "description": "A library for decorating Doctrine collections with Elephox collections.",
+    "type": "library",
+    "require": {
+        "php": "~8.1 || ~8.2",
+        "elephox/collection": "^0.3.12",
+        "doctrine/collections": "^1.6.8"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Elephox\\Decorator\\Doctrine\\Collection\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ricardo Boss",
+            "email": "contact@ricardoboss.de"
+        }
+    ]
+}
